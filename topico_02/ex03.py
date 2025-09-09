@@ -3,3 +3,10 @@
 # escrever uma mensagem na tela avisando que o usuário levou
 # uma multa e o valor a ser pago. Considere R$ 7 reais por
 # cada Km acima do limite.
+
+velocidade = float(input('Digite a velocidade de um carro em Km/h: '))
+
+if velocidade > 80:
+    print('Você levou uma multa por excesso de velocidade!')
+    multa = (velocidade - 80) * 7
+    print(f'Sua multa é de R${multa}')
