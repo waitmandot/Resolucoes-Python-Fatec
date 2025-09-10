@@ -10,7 +10,7 @@ salario = float(input('Digite o valor do seu salário: '))
 
 valor_parcelas = valor_casa / qntd_parcelas
 
-if valor_parcelas > salario * 0.3:
+if valor_parcelas > salario * 0.30:
     print('Você não pode fazer o financeamento!')
 else:
     print('Você pode fazer o financeamento')

@@ -4,9 +4,12 @@
 # uma multa e o valor a ser pago. Considere R$ 7 reais por
 # cada Km acima do limite.
 
+LIMITE = 80
+VALOR_MULTA = 7
+
 velocidade = float(input('Digite a velocidade de um carro em Km/h: '))
 
-if velocidade > 80:
+if velocidade > LIMITE:
     print('Você levou uma multa por excesso de velocidade!')
-    multa = (velocidade - 80) * 7
+    multa = (velocidade - LIMITE) * VALOR_MULTA
     print(f'Sua multa é de R${multa}')
