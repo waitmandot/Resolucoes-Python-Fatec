@@ -1,0 +1,124 @@
+# --------------------------
+# Python
+# --------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environments
+venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# PIP
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+*.exe
+*.dll
+*.pyd
+*.pyi
+*.log
+*.manifest
+*.spec
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# --------------------------
+# Node.js
+# --------------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+yarn.lock
+.pnpm-debug.log
+
+# --------------------------
+# IDEs
+# --------------------------
+# VSCode
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# --------------------------
+# Sistema Operacional
+# --------------------------
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+.nfs*
+
+# --------------------------
+# Logs, temp, e cache
+# --------------------------
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+
+# --------------------------
+# Arquivos de dados sensíveis
+# --------------------------
+*.env
+.env.local
+.env.*.local
+credentials.json
+*.key
+*.pem
+*.pfx
+*.crt
+*.cer
+
+# --------------------------
+# Outros
+# --------------------------
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.pdf
+*.exe
+*.dll
